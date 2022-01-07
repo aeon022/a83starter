@@ -3,4 +3,4 @@
 A Starter Template/Framework for WordPress
 
 
-Proudly made with earl grey!
+Proudly written with love and ear grey!
