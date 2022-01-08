@@ -1,0 +1,23 @@
+<project>
+    <documents></documents>
+    <dmdesigns>
+        <dmdesign active>
+            <dmdesignskill skill="bs4.colors">
+                <dmcolor key="primary" color="#6328c3"/>
+                <dmcolor key="secondary" color="#7c92a6"/>
+                <dmcolor key="info" color="#8117b8"/>
+                <dmcolor key="success" color="#aa248f"/>
+                <dmcolor key="warning" color="#ffc107"/>
+                <dmcolor key="danger" color="#dc3545"/>
+                <dmcolor key="white" color="white"/>
+                <dmcolor key="light" color="rgba(248, 249, 250, 0.49)"/>
+                <dmcolor key="dark" color="#343a40"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts" headings_family="Share Tech Mono" text_family="Share Tech" headings_weight="bolder"></dmdesignskill>
+            <dmdesignskill skill="headings" h1_family="Share Tech" h1_weight="bolder"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors="true" advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0"></dmdesignskill>
+            <dmdesignskill skill="bootstrap"></dmdesignskill>
+        </dmdesign>
+    </dmdesigns>
+    <dmlocked bs4-colors-primary="false" bs4-colors-secondary="false" bs4-colors-info="false" bs4-colors-success="false" bs4-colors-warning="false" bs4-colors-danger="false" bs4-colors-white="false" bs4-colors-light="false" bs4-colors-dark="false"></dmlocked>
+</project>
