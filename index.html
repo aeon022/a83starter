@@ -24,19 +24,19 @@
     </head>
     <body>
         <div class="hfeed site" id="page">
-            <header>
+            <header style="z-index: 1;">
                 <div itemscope="" itemtype="http://schema.org/WebSite" id="wrapper-navbar"><a class="skip-link sr-only sr-only-focusable" href="#content">Skip to content</a>
-                    <nav class="bg-light navbar navbar-expand-lg navbar-light sticky-top" id="Topbar" data-pg-name="Topbar"> 
-                        <div class="container d-flex justify-content-end">
+                    <nav class="bg-light navbar navbar-expand-lg navbar-light" id="Topbar" data-pg-name="Topbar"> 
+                        <div class="container d-flex justify-content-end ">
                             <div class="bg-light header_top py-1"> 
-                                <div class="container"> 
+                                <div class="container" style="padding-left: 0; padding-right: 0;"> 
                                     <div class="align-items-center no-gutters row"> 
                                         <div class="col"> 
                                             <div class="py-1"> <a href="#" class="mr-md-2"> <span class="mr-md-1"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
                                                             <path d="M21 16.42v3.536a1 1 0 0 1-.93.998c-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07A1 1 0 0 1 4.044 3H7.58a.5.5 0 0 1 .498.45c.023.23.044.413.064.552A13.901 13.901 0 0 0 9.35 8.003c.095.2.033.439-.147.567l-2.158 1.542a13.047 13.047 0 0 0 6.844 6.844l1.54-2.154a.462.462 0 0 1 .573-.149 13.901 13.901 0 0 0 4 1.205c.139.02.322.042.55.064a.5.5 0 0 1 .449.498z"/> 
-                                                        </svg> </span> <span class="d-md-inline d-none">                                             +0-123-456-789 </span> </a> <a href="#" class="mr-md-2"> <span class="mr-md-1"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                                                        </svg> </span> <span class="d-md-inline d-none" cms-editable="topbar_phone" cms-editable-type="content" cms-editable-label="Phone">                                             +0-123-456-789 </span> </a> <a href="#" class="mr-md-2" cms-editable cms-editable-type="link" cms-editable-type-2="link" cms-editable-label="E-Mail Link"> <span class="mr-md-1"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
                                                             <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm9.06 8.683L5.648 6.238 4.353 7.762l7.72 6.555 7.581-6.56-1.308-1.513-6.285 5.439z"/> 
-                                                        </svg> </span> <span class="d-md-inline d-none">                                             info@company.com </span> </a> 
+                                                        </svg> </span> <span class="d-md-inline d-none" cms-editable="topbar_mail" cms-editable-label="E-Mail" cms-editable-type="content">                                             info@company.com </span> </a> 
                                             </div>                                             
                                         </div>                                         
                                         <div class="col-auto"> 
@@ -64,7 +64,7 @@
                             </div>
                         </div>                         
                     </nav>
-                    <nav class="bg-dark navbar navbar-dark navbar-expand-lg sticky-top"> 
+                    <nav class="navbar navbar-dark navbar-expand-md order-1 overflow-auto sticky-top"> 
                         <div class="container">
                             <div data-pg-name="Brand Without Custom Logo" wp-if-custom="has_custom_logo()" wp-if-custom-not="true"><a rel="home" class="navbar-brand" href="#" cms-site-name style="font-weight: bolder; font-family: 'Share Tech Mono', sans-serif; font-size: 28px; letter-spacing: 4px;">A83 Starter</a>
                             </div>
@@ -88,7 +88,7 @@
                         </div>                         
                     </nav>
                 </div>
-                <div data-pg-name="jumbotron_wrapper" wp-cz-control="show_jumbotron" wp-cz-control-label="Show Jumbotron" wp-cz-control-type="checkbox" wp-cz-control-section="header_settings" wp-if-get-theme-mod="show_jumbotron" wp-cz-control-description="Activate the Jumbotron. Note: It will be visible on ALL the theme templates. If you need a selective display, use the Hero slider or  Hero Canvas widgets and the Widget Logic plugin.">
+                <div data-pg-name="jumbotron_wrapper" wp-cz-control="show_jumbotron" wp-cz-control-label="Show Jumbotron" wp-cz-control-type="checkbox" wp-cz-control-section="header_settings" wp-if-get-theme-mod="show_jumbotron" wp-cz-control-description="Activate the Jumbotron. Note: It will be visible on ALL the theme templates. If you need a selective display, use the Hero slider or  Hero Canvas widgets and the Widget Logic plugin." style="margin-top: -68px; z-index: 9999; background-image: url('assets/backgrounds/Abstract_Network%20Background_02.jpg');">
                     <div class="float-none jumbotron vh-100" cms-editable="jumbotron_bg_color" cms-editable-type="background-color" cms-editable-label="Jumbotron Background color" cms-editable-2="jumbotron_bg_image" cms-editable-label-2="Jumbotron Background image" cms-editable-type-2="background-image" cms-editable-image-size-2="full" cms-editable-section="header_settings" cms-editable-section-2="header_settings" style="background-image: url('assets/backgrounds/Abstract_Network%20Background_02.jpg'); display: grid; align-content: flex-end; flex-direction: column; align-self: flex-end;">
                         <div class="container">
                             <h1 class="display-3" cms-editable="jumbotron_heading_color" cms-editable-type="text-color" cms-editable-label="Jumbotron Heading Color" cms-editable-style-important cms-editable-section="header_settings" style="color: #ffffff;">Starter Framework</h1>
